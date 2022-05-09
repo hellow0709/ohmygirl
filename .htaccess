@@ -1,0 +1,6 @@
+<IfModule mod_url.c>
+    checkURL On
+    ServerEncoding EUC-KR
+    ClientEncoding UTF-8
+</IfModule>
+ErrorDocument 404 https://naver.com/
